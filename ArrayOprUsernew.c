@@ -1,3 +1,14 @@
+/*Q. WAP to perform following actions on an array entered by the user:
+1. Print even valued elements.
+2. Print odd valued elements.
+3. Calculate nad print the sum and average of the elements of the array.
+4. Print maximum and minimum element of the array.
+5. Remove duplicates from the array.
+6.Print the array in the reverse order.
+The program should also present a menu to the user and for one of the options.
+The meni should also include options to re-enter and to quit the program. */
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
