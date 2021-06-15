@@ -1,3 +1,4 @@
+//test program for star "*" pyramid.
 #include <stdio.h>
 
 int main(){

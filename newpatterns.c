@@ -1,3 +1,4 @@
+//program to print pyramid of star "*".
 #include <stdio.h>
 
 int main(){

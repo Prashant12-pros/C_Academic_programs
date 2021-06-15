@@ -1,3 +1,6 @@
+/*20.	Write a program to find sum of n elements entered by the user. To write this program,
+        allocate memory dynamically using malloc() / calloc() functions or new operator.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,7 +20,7 @@ int main(){
         scanf("%d", element);
         sum = sum + *(element);
     }
-    //while this loop was in execution, sum printed the memory address sum.
+    //while this loop was in execution, sum printed the memory address' sum.
     // for(int i = 0; i < n; i++){
     //     sum = sum + *element;
     //     element++;

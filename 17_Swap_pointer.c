@@ -1,3 +1,4 @@
+//17.	Write a program that swaps two numbers using pointers.
 #include <stdio.h>
 
 void swap(int *x, int *y){

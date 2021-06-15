@@ -1,3 +1,4 @@
+//11.	WAP to compute the sum of the first n terms of the following series S =1-2+3-4+5…………….
 #include <stdio.h>
 //series: 1-2+3-4+5-6+........
 /*logic: for even terms= (-1)(n/2)

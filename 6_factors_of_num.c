@@ -1,3 +1,4 @@
+//6.	WAP to compute the factors of a given number.
 #include <stdio.h>
 
 int main(){

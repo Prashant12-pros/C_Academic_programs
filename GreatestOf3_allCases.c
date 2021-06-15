@@ -1,3 +1,5 @@
+/*This program includes edge cases for finding the greatest number among the 3.*/
+
 #include <stdio.h>
 
 int main(){

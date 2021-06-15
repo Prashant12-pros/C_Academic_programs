@@ -1,3 +1,4 @@
+//18.	Write a program in which a function is passed address of two variables and then alter its contents.
 #include <stdio.h>
 void change(int *x, int *y){
     *x += 10;

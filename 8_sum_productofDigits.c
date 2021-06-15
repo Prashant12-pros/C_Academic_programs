@@ -1,3 +1,4 @@
+//8.	WAP to print the sum and product of digits of an integer.
 #include <stdio.h>
 
 int main(){

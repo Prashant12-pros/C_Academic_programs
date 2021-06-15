@@ -1,3 +1,4 @@
+//7.	WAP to enter marks of five subjects and calculate total, average and percentage.
 #include <stdio.h>
 #include <stdlib.h>
 
