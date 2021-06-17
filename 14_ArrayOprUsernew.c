@@ -108,27 +108,23 @@ int main(){
          printf("New array is: ");//Displayin the new array after removing duplicate items
     
         //Calculating the duplicate items and deleting those elements
-        for(int i = 0; i < size; i++)
-        {
-            for(int j = i+1; j < size; )
-            {
-                if(arr[j] == arr[i])
-                {
-                    for(int k = j; k < size; k++)
-                    {
+        for(int i = 0; i < size; i++){
+            for(int j = i+1; j < size; ){
+
+                if(arr[j] == arr[i]){
+                    for(int k = j; k < size; k++){
                         arr[k] = arr[k+1];
                     }
+
                     size--;
                 }
-                else
-                {
+                else{
                     j++;
                 }
             }
         }
 
-        for(int i = 0; i < size; i++)
-        {
+        for(int i = 0; i < size; i++){
             printf("%d ", arr[i]);//Displaying elements
         }
     }
