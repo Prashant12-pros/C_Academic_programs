@@ -10,14 +10,11 @@ int main(){
     long double ldb;
 
     //taking input from the user
-    printf("Enter an unsigned character: ");
-    un_ch = getchar();
-    getchar();
-    //scanf("%c", un_ch); -- scanf isn't working as assumed for both of the character inputs, instead working only for one
     printf("Enter a character: ");
-    ch = getchar();
+    scanf("%c", &ch);
     getchar();
-    //scanf("%c", ch);
+    printf("Enter an unsigned character: ");
+    scanf("%c", &un_ch);
     printf("Enter an integer: ");
     scanf("%d", &i);
     printf("Enter an unsigned integer: ");
