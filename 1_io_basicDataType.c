@@ -32,7 +32,7 @@ int main(){
     printf("Integer: %d\n", i);
     printf("Unsigned Integer: %u\n", ui);
     printf("Float: %f\n", f);
-    printf("Doubel: %lf\n", db);
+    printf("Double: %lf\n", db);
     printf("Long double: %Lf\n", ldb);
     return 0;
 }
