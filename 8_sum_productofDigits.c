@@ -5,6 +5,7 @@ int main(){
     int num, product = 1, sum =0, temp;
     printf("Enter the number: \n");
     scanf("%d", &num);
+    printf("The sum and product of digits %d are:\n", num);
 
     while(num != 0){
         temp = num % 10;
@@ -12,7 +13,8 @@ int main(){
         product = product * temp;
         num = num/10;
     }
-    printf("The sum of the digits %d is: %d\n", num, sum);
-    printf("The product of digits %d is: %d\n", num, product);
+
+    printf("Sum: %d\t", sum);
+    printf("Product: %d\n", product);
     return 0;
 }
