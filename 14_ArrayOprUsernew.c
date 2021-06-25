@@ -62,6 +62,7 @@ int main(){
                 printf("%d ", arr[k]);
             }
         }
+        printf("\n");
 
         printf("The odd elements of array are: ");
         for (int l = 0; l < size; l++){
@@ -69,6 +70,7 @@ int main(){
                 printf("%d ", arr[l]);
             }
         }
+        printf("\n");
     }
 
     //sum and average of array
@@ -127,6 +129,7 @@ int main(){
         for(int i = 0; i < size; i++){
             printf("%d ", arr[i]);//Displaying elements
         }
+        printf("\n");
     }
 
     //reversing array
