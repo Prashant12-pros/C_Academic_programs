@@ -5,8 +5,8 @@
 4. Print maximum and minimum element of the array.
 5. Remove duplicates from the array.
 6.Print the array in the reverse order.
-The program should also present a menu to the user and for one of the options.
-The menu should also include options to re-enter and to quit the program. */
+The menu should also include options to re-enter and to quit the program.
+The program should also present a menu to the user and for one of the options. */
 
 #include <stdio.h>
 #include <stdlib.h>
