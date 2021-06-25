@@ -120,6 +120,7 @@ int main()
         // flag = tolower(flag);
         
     }while(flag);
+    free(ptr);
     
     
     return 0;
